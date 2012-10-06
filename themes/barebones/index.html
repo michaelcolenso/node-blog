@@ -1,0 +1,45 @@
+<!doctype html>
+	<head>
+		<title>Barebones Theme</title>
+		<link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+		<link href='assets/structure.css' rel='stylesheet' type='text/css'>
+		<style type="text/css">
+		body {
+			padding: 52px 64px;
+		}
+		#posts {
+			list-style-type: none;
+		}
+		</style>
+	</head>
+	<body>
+		<div id="wrapper">
+			<header id="navigation">
+				<hgroup>
+					{{#if config.name}}
+						<h1 id="blog-title">{{ config.name }}}</h1>
+					{{/if}}
+					{{#if config.description}}
+						<h2 id="blog-description">{{ config.description }}}<h2>
+					{{/if}}
+				</hgroup>
+				<ul id="blog-roll">
+  				{{#each config.blogroll}}
+						<li><a href="{{ url }}" title="{{ description }}">{{ title }}</a></li>
+  				{{/each}}
+				</ul>
+			</header>
+			<div id="content">
+				<ol id="posts">
+    			{{#posts}}
+					<li>
+						<h3 class="title">{{{ title }}} <small>{{{ timestamp }}}</small></h3>
+						{{{ body }}}
+					</li>
+    			{{/posts}}
+				</ol>
+			</div>
+		</div>
+    {{{ realtime }}}
+  </body>
+</html>

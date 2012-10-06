@@ -1,0 +1,37 @@
+{
+  "development": true,
+  "theme": "bootstrap",
+  "name": "michael colenso",
+  "description": "collected writings about random things you have no interest in.",
+  "subheading": "test subheading",
+  "blogroll": [
+    {
+      "title": "www.michaelcolenso.com",
+      "url": "http://www.michaelcolenso.com",
+      "description": "My web design and development portfolio site."
+    },
+    {
+      "title": "Ali and Mike attempt to Parent a Child",
+      "url": "http://jack.colenso.org",
+      "description": "The site for grandparents"
+    },
+
+    {
+      "title": "Follow me on Twitter",
+      "url": "http://twitter.com/michaelcolenso",
+      "description": "Follow @michaelcolenso on Twitter"
+    },
+
+    {
+      "title": "LinkedIn Profile",
+      "url": "http://www.linkedin.com/in/michaelcolenso",
+      "description": "all business. all the time."
+    },
+
+    {
+      "title": "Github Profile",
+      "url": "http://www.github.com/michaelcolenso",
+      "description": "Where the code goes."
+    }
+  ]
+}

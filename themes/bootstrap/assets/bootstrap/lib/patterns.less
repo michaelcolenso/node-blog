@@ -1,0 +1,102 @@
+// Patterns.less
+// Repeatable UI elements outside the base styles provided from the scaffolding
+// ----------------------------------------------------------------------------
+
+
+// PAGE HEADERS
+// ------------
+
+/* Jumbotrons
+-------------------------------------------------- */
+.jumbotron {
+  position: relative;
+  width: 75%;
+  background-color: transparent;
+  }
+.jumbotron h1 {
+  margin-bottom: 9px;
+  font-size: 96px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+.jumbotron p {
+  margin-bottom: 18px;
+  font-weight: 300;
+}
+.jumbotron .btn-large {
+  font-size: 20px;
+  font-weight: normal;
+  padding: 14px 24px;
+  margin-right: 10px;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+.jumbotron .btn-large small {
+  font-size: 14px;
+}
+
+/* Masthead (docs home) */
+.masthead {
+  padding-top: 36px;
+  margin-bottom: 72px;
+  background-color: transparent;
+}
+.masthead h1,.masthead p {
+  text-align: center;
+}
+.masthead h1 {
+  margin-bottom: 18px;
+}
+.masthead p {
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.hero-unit {
+  background-color: transparent;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 60px;
+  width: 100%;
+  .border-radius(6px);
+    h1 {
+    margin-bottom: 0;
+    font-size: 48px;
+    line-height: 1;
+    letter-spacing: -1px;
+	color: rgba(0, 0, 0, 0.5);
+}
+  	p {
+    font-size: 18px;
+    font-weight: 200;
+    line-height: @baseLineHeight * 1.5;
+	color: black;
+//	background-color: white;
+}
+	footer {
+	  padding-top: @baseLineHeight - 1;
+	  margin-top: @baseLineHeight - 1;
+	  border-top: 1px solid #eee;
+	  color: black;
+//	  background-color: white;
+  }
+	ul {
+		font-size: 24px;
+		line-height: @baseLineHeight * 2.5;
+		padding-bottom: @baseLineHeight - 1;
+		text-align: left;
+		font-weight: bold;
+		color: white;
+	}
+		li {
+			line-height: @baseLineHeight * 2;
+			color: black;
+//			background-color: white;
+		}
+}
