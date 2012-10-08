@@ -61,5 +61,6 @@ compiler.compile(postsDir, themeDir, config, function(err, files) {
   });
 
 
+  var port = process.env.PORT || 12810;
   app.listen(8000);
 });
