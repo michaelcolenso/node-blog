@@ -1,7 +1,7 @@
 {
   "name": "node-blog",
   "description": "description",
-  "version": "0.0.1",
+  "version": "0.0.1-1",
   "engines": {
     "node": "~0.6.x"
   },
@@ -16,9 +16,8 @@
     "consolidate": "0.1.0",
     "whiskers": "0.1.5"
   },
-  "devDependencies": {},
   "scripts": {
-    "start": "quill.js"
-  }
+    "start": "node quill.js"
+  },
+  "subdomain": "michaelcolenso.bloggings"
 }
-
