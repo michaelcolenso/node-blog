@@ -1724,3 +1724,6 @@
   })
 
 }( window.jQuery );
+=======
+}( window.jQuery );
+>>>>>>> upstream/master
