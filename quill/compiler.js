@@ -31,6 +31,10 @@ hbs.registerHelper('realtime', function() {
  * @param String siteDirectory Directory where the compiled static site exists
  * @param Function callback Callback function
  */
+
+fs.exists = fs.exists || require('path').exists;
+fs.existsSync = fs.existsSync || require('path').existsSync;
+
 var copyAssets = function(themeDirectory, siteDirectory, callback) {
 
   var siteAssets = path.join(siteDirectory, 'assets')
