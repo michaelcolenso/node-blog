@@ -9,20 +9,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-<<<<<<< HEAD
     <script src="/assets/bootstrap/js/jquery.anystretch.js"></script>
     <script src="/assets/bootstrap/js/bootstrap.js" type="text/javascript"></script>
     <script src="http://timefield.googlecode.com/svn/trunk/timefield.js" type="text/javascript"></script>
 
     <link href="/assets/bootstrap/css/bootstrap.css" rel="stylesheet">
     <link href="/assets/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
-    
-=======
     <script src="http://timefield.googlecode.com/svn/trunk/timefield.js" type="text/javascript"></script>
 
-    <!-- Le styles -->
-    <link href="/assets/bootstrap/css/bootstrap.css" rel="stylesheet">
->>>>>>> upstream/master
     <style type="text/css">
       body {
         padding-top: 60px;
@@ -51,23 +45,13 @@
         background-color: #f3f3f3;
       }
     </style>
-<<<<<<< HEAD
-=======
     <link href="/assets/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
->>>>>>> upstream/master
-    
+
     <script type="text/javascript">
     $(document).ready(function () {
         $.timeField.init();
     });
     </script>
-<<<<<<< HEAD
-    
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-=======
-
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
->>>>>>> upstream/master
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -81,7 +65,6 @@
           {{#if config.name}}
           <a class="brand" href="#">{{ config.name }}}</a>
           {{/if}}
-<<<<<<< HExAD
           <ul class="nav">
             <li class="active"><a href="#">Home</a></li>
             <li><a href="#">Link</a></li>
@@ -100,8 +83,6 @@
               <li><a href="#" id="target-3">cutout</a></li>
               <li><a href="#" id="target-4">tangerine tango</a></li>
             </ul>
-=======
->>>>>>> upstream/master
         </div>
       </div>
     </div>
@@ -123,16 +104,9 @@
         {{/if}}
       </div>
 
-<<<<<<< HEAD
       <div class="row">
         <div class="span8">
           <h2 class="page-header">Articles</h2>
-=======
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="span8">
-          <h2>Posts</h2>
->>>>>>> upstream/master
           {{#posts}}
             <div class="well">
               <a href="/{{ url }}"><h2>{{{ title }}} <small class="timefield t:{{ timestamp }}"></small></h2></a>
@@ -141,22 +115,15 @@
           {{/posts}}
         </div>
         <div class="span4">
-<<<<<<< HEAD
           <h2 class="page-header">Cool Links</h2>
-=======
-          <h2>Cool Links</h2>
->>>>>>> upstream/master
           <ul class="nav nav-list well">
           {{#each config.blogroll}}
             <li><a href="{{ url }}" title="{{ description }}">{{ title }}</a></li>
           {{/each}}
           </ul>
-<<<<<<< HEAD
           <h2 class="page-header">Github: Repos I'm Watching</h2>
           <div id="result" class="well">
           </div>
-=======
->>>>>>> upstream/master
         </div>
       </div>
 
@@ -169,7 +136,6 @@
     </div> <!-- /container -->
     {{{ realtime }}}
 
-<<<<<<< HEAD
     <script>
     $(document).ready(function () {
       $('.dropdown-toggle').dropdown()
@@ -236,4 +202,3 @@
 =======
   </body>
 </html>
->>>>>>> upstream/master
