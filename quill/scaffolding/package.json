@@ -3,7 +3,7 @@
   "description": "This is a blog based on Quill!",
   "version": "0.0.1",
   "engines": {
-    "node": "~0.6.x"
+    "node": "~0.6.9"
   },
   "dependencies": {
     "colors": "0.6.0-1",

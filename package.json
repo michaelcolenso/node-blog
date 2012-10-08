@@ -1,19 +1,7 @@
 {
-  "author": [
-    "Mike Swift <theycallmeswift@gmail.com> (http://theycallmeswift.com)",
-    "Ian Jennings <ian@meetjennings.com> (http://meetjennings.com)"
-  ],
-  "name": "quill",
-  "description": "A realtime git backed blogging engine for node.js",
-  "version": "0.1.6",
-  "homepage": "http://justquillin.com/",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:theycallmeswift/quill.git"
-  },
-  "bin": {
-    "quill": "./bin/quill"
-  },
+  "name": "michaelcolenso",
+  "description": "classy AND sexy.",
+  "version": "0.0.1",
   "engines": {
     "node": "~0.8.0"
   },
@@ -29,12 +17,8 @@
     "whiskers": "0.1.5"
   },
   "devDependencies": {},
-  "domains": [
-    "justquillin.com",
-    "www.justquillin.com"
-  ],
-  "subdomain": "quill",
   "scripts": {
     "start": "quill.js"
-  }
+  },
+  "subdomain": "michaelcolenso.writings"
 }
