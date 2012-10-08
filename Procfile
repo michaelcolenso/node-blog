@@ -1,1 +1,1 @@
-web: node quill.js
+web: node quill
