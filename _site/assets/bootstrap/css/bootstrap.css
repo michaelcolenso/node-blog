@@ -33,11 +33,6 @@ html {
   font-size: 100%;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-  background: url(../../tub_web_1280-tango.png) no-repeat fixed center center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
 	width: 100%;
 	height: 100%;
 }

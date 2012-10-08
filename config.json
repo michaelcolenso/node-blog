@@ -2,8 +2,8 @@
   "development": true,
   "theme": "bootstrap",
   "name": "michael colenso",
-  "description": "collected writings about random things you have no interest in.",
-  "subheading": "test subheading",
+  "description": "collected writings about random things",
+  "subheading": "web developer guy.",
   "blogroll": [
     {
       "title": "www.michaelcolenso.com",
