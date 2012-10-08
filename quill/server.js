@@ -62,5 +62,4 @@ compiler.compile(postsDir, themeDir, config, function(err, files) {
 
 
   var port = process.env.PORT || 5000;
-  app.listen(port, function() {
-});
+  app.listen(port, function();
