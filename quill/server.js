@@ -57,10 +57,10 @@ compiler.compile(postsDir, themeDir, config, function(err, files) {
     console.log('-------------------------------------');
     console.log('Theme: ' + String(config.theme).cyan);
     console.log('-------------------------------------')
-    console.log('Starting server on port 8000');
+    console.log('Starting server on port' + port);
   });
 
 
-  var port = process.env.PORT || 12810;
+  var port = process.env.PORT || 5000;
   app.listen(port, function() {
 });
