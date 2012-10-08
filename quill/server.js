@@ -45,21 +45,7 @@ compiler.compile(postsDir, themeDir, config, function(err, files) {
     });
   });
 
-  app.on('listening', function() {
-    intro();
-    console.log('');
-    console.log('v'.yellow + String(pack.version).yellow);
-    for(var a in pack.author){
-      console.log(pack.author[a].cyan);
-    }
-    console.log('a ' + 'HackNY'.red + ' hack');
-    console.log('');
-    console.log('-------------------------------------');
-    console.log('Theme: ' + String(config.theme).cyan);
-    console.log('-------------------------------------')
-    console.log('Starting server on port' + port);
-  });
-
-
   var port = process.env.PORT || 5000;
-  app.listen(port);
+  app.listen(port, function() {
+          console.log("Listening on " + port);
+  });
