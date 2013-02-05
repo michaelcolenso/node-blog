@@ -213,6 +213,9 @@ choose wisely.
             <li><a href="http://www.github.com/michaelcolenso" title="Where the code goes.">Github Profile</a></li>
           
           </ul>
+          <h2 class="page-header">Github: Repos I've Starred</h2>
+          <div id="starred" class="well">
+          </div>
           <h2 class="page-header">Github: Repos I'm Watching</h2>
           <div id="result" class="well">
           </div>
@@ -261,6 +264,31 @@ choose wisely.
       });
     </script>
 
+    <script>
+    $(document).ready(function () {
+
+      var html = "";
+      $.ajax( {
+        url : "https://api.github.com/users/michaelcolenso/starred",
+        dataType : "jsonp",
+        success : function ( returndata ) {
+          $.each( returndata.data, function ( i, item ) {
+            html += '<li>' +
+              '<h3><a href="' + this.html_url + '">' + this.name + '</a></h3>' +
+              '<ul>' +
+              '<li>' + 'Description: ' + this.description + '</li>' +
+              '<li>' + 'Language: ' + this.language + '</li>' +
+              '<li>' + 'Watchers: ' + this.watchers + '</li>' +
+              '</ul>' +
+              '</li>';
+            });
+            $( '#starred' ).append( html );
+          }
+        });
+      });
+    </script>
+
+
     <!-- sets the background image -->
     <script>
       <!-- $.anystretch("assets/tub_web_1280-bw.png", {speed: 1000}); -->
@@ -287,6 +315,20 @@ choose wisely.
           $(".hero-unit").css("background-color", "none").css("color", "#222");
             $(".page-header").css("color", "#222");
       });
+
+    </script>
+
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-38249760-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
 
     </script>
 
