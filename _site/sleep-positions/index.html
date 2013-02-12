@@ -9,9 +9,6 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-    <script src="/assets/bootstrap/js/jquery.anystretch.js"></script>
-    <script src="/assets/bootstrap/js/bootstrap.js" type="text/javascript"></script>
-    <script src="http://timefield.googlecode.com/svn/trunk/timefield.js" type="text/javascript"></script>
 
     <link href="/assets/bootstrap/css/bootstrap.css" rel="stylesheet">
     <link href="/assets/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
@@ -42,6 +39,10 @@
       }
       #new-post-notice:hover {
         background-color: #f3f3f3;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
       }
     </style>
     
@@ -94,11 +95,9 @@
         
 
         
-        <h4>web developer guy.</h4>
-        
 
         
-        <p>collected writings about random things</p>
+        <p>loud talker.</p>
         
       </div>
 
@@ -232,6 +231,11 @@ choose wisely.
     <script src='/socket.io/socket.io.js'></script>
 <script src='/assets/quill/realtime.js'></script>
 
+    <script src="/assets/bootstrap/js/jquery.anystretch.js"></script>
+    <script src="/assets/bootstrap/js/app.js"></script>
+    <script src="/assets/bootstrap/js/bootstrap.js" type="text/javascript"></script>
+    <script src="http://timefield.googlecode.com/svn/trunk/timefield.js" type="text/javascript"></script>
+
     <script>
     $(document).ready(function () {
       $('.dropdown-toggle').dropdown()
@@ -289,34 +293,6 @@ choose wisely.
     </script>
 
 
-    <!-- sets the background image -->
-    <script>
-      <!-- $.anystretch("assets/tub_web_1280-bw.png", {speed: 1000}); -->
-
-      //change bg on clicking target
-      $("#target").click(function() {
-      $.anystretch("assets/tub_web_1280.png");
-      });
-
-      $("#target-2").click(function() {
-      $.anystretch("assets/tub_web_1280-bw.png", {speed: 2000});
-        $(".well").css("background-color", "rgba( 255, 255, 255, 0.9 )");
-          $(".hero-unit").css("background-color", "none").css("color", "white");
-            $(".page-header").css("color", "white");
-      });
-
-      $("#target-3").click(function() {
-      $.anystretch("assets/tub_web_1280-cutout.png", {speed: 1500});
-      });
-
-      $("#target-4").click(function() {
-      $.anystretch("assets/tub_web_1280-tango.png", {speed: 1700});
-        $(".well").css("background-color", "rgba( 255, 255, 255, 1.0 )");
-          $(".hero-unit").css("background-color", "none").css("color", "#222");
-            $(".page-header").css("color", "#222");
-      });
-
-    </script>
 
     <script type="text/javascript">
 

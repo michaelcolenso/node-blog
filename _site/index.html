@@ -9,9 +9,6 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-    <script src="/assets/bootstrap/js/jquery.anystretch.js"></script>
-    <script src="/assets/bootstrap/js/bootstrap.js" type="text/javascript"></script>
-    <script src="http://timefield.googlecode.com/svn/trunk/timefield.js" type="text/javascript"></script>
 
     <link href="/assets/bootstrap/css/bootstrap.css" rel="stylesheet">
     <link href="/assets/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
@@ -42,6 +39,10 @@
       }
       #new-post-notice:hover {
         background-color: #f3f3f3;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
       }
     </style>
     
@@ -94,17 +95,38 @@
         
 
         
-        <h4>web developer guy.</h4>
-        
 
         
-        <p>collected writings about random things</p>
+        <p>loud talker.</p>
         
       </div>
 
       <div class="row">
         <div class="span8">
           <h2 class="page-header">Articles</h2>
+          
+            <div class="well">
+              <a href="/d3.js-is-awesome."><h2>D3.js Is Awesome. <small class="timefield t:1360697931000"></small></h2></a>
+              <div class='_post' id='1360697931'><h2>d3.js is your new bicycle.</h2>
+<p><img src="http://f.cl.ly/items/400g2w0o3p3f1s1x3m3a/Screen%20Shot%202013-02-12%20at%201.35.24%20PM.png" alt="screenshotmap">
+
+</p>
+<p>My latest experiments while learning to harness the power and potential
+of Mike Bostock&#39;s alarmingly great and useful javascript library. I made
+a map of Military Installations, Ranges, and Training Areas located in the US,
+using some data <a href="https://explore.data.gov/National-Security-and-Veterans-Affairs/Military-Installations-Ranges-and-Training-Areas/wcc7-57p3">published on data.gov</a> by the Department of Defense,
+along with <em>tons</em> of help and inspiration from these (and other) awesome <a href="http://bl.ocks.org/4657115">mapping</a> <a href="http://bl.ocks.org/4699541">examples</a> by <a href="http://bl.ocks.org/mbostock">mbostock</a> himself.
+
+</p>
+<p>I&#39;m excited about the stuff that can be done with this, and I&#39;m going to
+continue to explore and hopefully post more detailed explanations and
+techniques as I go along.
+
+</p>
+<p>My <a href="https://gist.github.com/michaelcolenso/4773152">work in progress</a> can be seen <a href="http://bl.ocks.org/d/4773152/">here</a>.
+</p>
+</div>
+            </div>
           
             <div class="well">
               <a href="/all-you-need-is-like"><h2>All You Need Is Like <small class="timefield t:1349718577000"></small></h2></a>
@@ -569,6 +591,11 @@ expensive belongings.
     <script src='/socket.io/socket.io.js'></script>
 <script src='/assets/quill/realtime.js'></script>
 
+    <script src="/assets/bootstrap/js/jquery.anystretch.js"></script>
+    <script src="/assets/bootstrap/js/app.js"></script>
+    <script src="/assets/bootstrap/js/bootstrap.js" type="text/javascript"></script>
+    <script src="http://timefield.googlecode.com/svn/trunk/timefield.js" type="text/javascript"></script>
+
     <script>
     $(document).ready(function () {
       $('.dropdown-toggle').dropdown()
@@ -626,34 +653,6 @@ expensive belongings.
     </script>
 
 
-    <!-- sets the background image -->
-    <script>
-      <!-- $.anystretch("assets/tub_web_1280-bw.png", {speed: 1000}); -->
-
-      //change bg on clicking target
-      $("#target").click(function() {
-      $.anystretch("assets/tub_web_1280.png");
-      });
-
-      $("#target-2").click(function() {
-      $.anystretch("assets/tub_web_1280-bw.png", {speed: 2000});
-        $(".well").css("background-color", "rgba( 255, 255, 255, 0.9 )");
-          $(".hero-unit").css("background-color", "none").css("color", "white");
-            $(".page-header").css("color", "white");
-      });
-
-      $("#target-3").click(function() {
-      $.anystretch("assets/tub_web_1280-cutout.png", {speed: 1500});
-      });
-
-      $("#target-4").click(function() {
-      $.anystretch("assets/tub_web_1280-tango.png", {speed: 1700});
-        $(".well").css("background-color", "rgba( 255, 255, 255, 1.0 )");
-          $(".hero-unit").css("background-color", "none").css("color", "#222");
-            $(".page-header").css("color", "#222");
-      });
-
-    </script>
 
     <script type="text/javascript">
 

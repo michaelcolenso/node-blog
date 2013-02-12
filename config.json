@@ -2,8 +2,8 @@
   "development": true,
   "theme": "bootstrap",
   "name": "michael colenso",
-  "description": "collected writings about random things",
-  "subheading": "Loud Talker. Good Listener. Web Developer.",
+  "description": "loud talker.",
+  "subheading": "",
   "blogroll": [
     {
       "title": "www.michaelcolenso.com",
