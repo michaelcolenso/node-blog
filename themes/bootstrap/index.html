@@ -93,7 +93,6 @@
 
       <div class="row">
         <div class="span8">
-          <h2 class="page-header">Articles</h2>
           {{#posts}}
             <div class="well">
               <a href="/{{ url }}"><h2>{{{ title }}} <small class="timefield t:{{ timestamp }}"></small></h2></a>
@@ -102,7 +101,6 @@
           {{/posts}}
         </div>
         <div class="span4">
-          <h2 class="page-header">Cool Links</h2>
           <ul class="nav nav-list well">
           {{#each config.blogroll}}
             <li><a href="{{ url }}" title="{{ description }}">{{ title }}</a></li>
